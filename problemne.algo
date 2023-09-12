@@ -1,0 +1,30 @@
+Algorithme Prendre meme valeurs des tableaux
+VAR 
+T1[],T2[],T3[]:INTEGER;
+n,m,f,i,j,k:INTEGER;
+s:real;
+
+BEGIN
+FOR i FROM 0 TO (n-1) STEP 1  DO
+    read T1[i];
+
+END_FOR
+FOR j FROM 0 TO (m-1) STEP 1  DO
+    read T2[j];
+    
+END_FOR
+WHILE ((i<=n) and (j<=m)) DO
+    IF (T1[i]==T2[j]) THEN
+       T3[k]<--T1[i]
+    
+       
+    ELSE
+         K=k-1
+    END_IF
+END_WHILE
+s<--0
+FOR k FROM 0 TO (f-1)STEP 1  DO
+    s=(s+t3[k])
+END_FOR
+write ("la somme est:", s)
+
